@@ -191,6 +191,10 @@ section .ingredients {
   max-height: 350px;
 }
 
+section .ingredients p span {
+  min-width: 30px;
+}
+
 section .instructions p span {
   width: 50px;
   height: 50px;
@@ -253,8 +257,8 @@ section button:hover {
   }
 
   section .container .row {
-  height: 700px;
-}
+    height: 700px;
+  }
 
   section .container {
     width: 75%;
