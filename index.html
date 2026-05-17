@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ^ Bpptstrap style  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- ^ fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- ^ main style sheet -->
+    <link rel="stylesheet" href="./css/master.css" />
+    <title>What's For Dinner</title>
+  </head>
+  <body class="bg-main">
+    <!-- ? Nav  -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container position-relative">
+        <a class="navbar-brand" href="#">
+          <div class="header d-flex gap-2 my-2 align-items-center">
+            <span
+              class="icon center text-white rounded-circle h5 align-self-center"
+              ><i class="fa-solid fa-utensils"></i
+            ></span>
+            <span class="title">
+              <h1 class="fs-5 fw-bold m-0">What's For Dinner</h1>
+              <p class="fs-12px text-secondary fw-medium mb-0">
+                Your daily meal inspiration
+              </p>
+            </span>
+          </div></a
+        >
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="text-secondary"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-secondary fs-5 mt-3 m-lg-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav m-0 ms-auto d-flex align-items-lg-center gap-4">
+            <li class="nav-item d-flex align-items-center gap-2">
+              <i class="fa-solid fa-bookmark"></i>
+              <span class="d-lg-none fw-medium">Saved Recipes</span>
+            </li>
+            <li class="nav-item d-flex align-items-center gap-2">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <span class="d-lg-none fw-medium">Recent</span>
+            </li>
+            <li class="nav-item d-flex align-items-center gap-2">
+              <i class="fa-solid fa-gear"></i>
+              <span class="d-lg-none fw-medium">Settings</span>
+            </li>
+            <li class="img nav-item d-flex align-items-center gap-2">
+              <img
+                class="object-fit-cover rounded-circle"
+                src="./imgs/imgi_1_avatar-4.jpg"
+                alt="avatar"
+              />
+              <span class="d-lg-none fw-medium">Profile</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ? food -->
+    <section class="mt-5 p-3" >
+      <div
+        class="container p-0 bg-white rounded-5 overflow-hidden"
+        id="container"
+      ></div>
+    </section>
+
+    <!-- ^ Bootstrap js  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- ^ main js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
