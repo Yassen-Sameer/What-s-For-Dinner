@@ -703,19 +703,7 @@ function gitMeal() {
 
 var oldIndex = -1;
 
-if (meals[randomIndex].information.prepTime > 45) {
-  warning = `
-    <div class="warning d-flex gap-4 rounded-4 p-3">
-      <div class="icon mt-2 h5"><i class="fa-solid fa-triangle-exclamation"></i></div>
-      <div class="text">
-        <p class="fw-bold fs-12px m-0 text-danger">Extended Preparation Time</p>
-        <p class="fs-12px">
-          This recipe requires more than 45 minutes to prepare. Plan
-          accordingly!
-        </p>
-      </div>
-    </div>`;
-}
+
 
 var oldIndex = -1;
 
