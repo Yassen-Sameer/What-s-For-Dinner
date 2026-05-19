@@ -140,6 +140,10 @@ section .img .bottom {
   width: 90%;
 }
 
+section .img {
+  height: 300px !important;
+}
+
 section .img .bottom span {
   font-size: 14px;
 }
@@ -287,6 +291,10 @@ section button:hover {
   section .img .bottom span,
   section .img .bottom p {
     font-size: 16px;
+  }
+
+  section .img {
+    height: 100% !important;
   }
 
   section .nutrition .nutrition-card {
